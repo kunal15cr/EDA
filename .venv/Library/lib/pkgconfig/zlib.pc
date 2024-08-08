@@ -1,0 +1,13 @@
+prefix=D:/project resume/eda/.venv/Library
+exec_prefix=D:/project resume/eda/.venv/Library
+libdir=D:/project resume/eda/.venv/Library/lib
+sharedlibdir=D:/project resume/eda/.venv/Library/lib
+includedir=D:/project resume/eda/.venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
